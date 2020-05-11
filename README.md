@@ -9,5 +9,10 @@ Vuforia version: 9.0.12
 Team Members:Hui Yun Lin, Tracy Kao
 Mentor: Wenhao Gu
 
-An augemented reality Dance Dance Revolution (DDR) Game during the pandemic.
+An augmented reality Dance Dance Revolution (DDR) Game during the pandemic.
 
+Steps to run code:
+1. Put Project Settings and Assets folder in the same folder of a newly created Unity project (replace existing one).
+2. Make sure you have the correct Vuforia version installed for optimal experience. 
+3. Set display resolution to Standalone(1024 x 678) for optimal experience.
+4. Press play to start playing!
