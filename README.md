@@ -9,7 +9,9 @@ Vuforia version: 9.0.12
 Team Members:Hui Yun Lin, Tracy Kao
 Mentor: Wenhao Gu
 
+
 An augmented reality Dance Dance Revolution (DDR) Game during the pandemic.
+NOTE: Multiple components of this code were modified from solutions suggested online.
 
 Steps to run code:
 1. Put Project Settings and Assets folder in the same folder of a newly created Unity project (replace existing one).
@@ -26,3 +28,9 @@ Window > Vuforia Configuration > PlayMode > Camera Device, you have the correct 
 5. Adjust the length of the virtual leg using "w" and "s" keys.
 6. Press "space" bar to start playing. Press "space" bar again to pause during the game at any time.
 7. Enjoy!
+
+
+Video Demo:
+https://youtu.be/kY1OG6XlByg
+[![Screen View](https://img.youtube.com/vi/kY1OG6XlByg/0.jpg)](https://youtu.be/kY1OG6XlByg)
+
