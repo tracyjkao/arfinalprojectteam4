@@ -28,6 +28,16 @@ public class GameManager : MonoBehaviour
     public Text multiText;
 
 
+
+    // rank
+    public float totalNotes;
+    public float normalHits;
+    public float goodHits;
+    public float perfectHits;
+    public float missedHits;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +49,13 @@ public class GameManager : MonoBehaviour
         // multiplier start from 1
         currentMultiplier = 1;
         multiText.text = "Multiplier: x1";
+
+        var note_u = FindObjectsOfType<Noteobj_u>();
+        var note_d = FindObjectsOfType<Noteobj_d>();
+        var note_l = FindObjectsOfType<Noteobj_l>();
+        var note_r = FindObjectsOfType<Noteobj_r>();
+
+        totalNotes = note_u.Length + note_d.Length + note_l.Length + note_r.Length;
     }
 
     // Update is called once per frame
@@ -56,8 +73,9 @@ public class GameManager : MonoBehaviour
                 theMusic.Play();
             }
         }
-        else {
-            if(Input.GetKeyDown("space"))
+        else
+        {
+            if (Input.GetKeyDown("space"))
             {
                 startPlaying = false;
                 theBS.hasStarted = false;
@@ -98,18 +116,22 @@ public class GameManager : MonoBehaviour
     {
         currentScore += scorePerNote * currentMultiplier;
         NoteHit();
+        normalHits++;
+
     }
 
     public void GoodHit()
     {
         currentScore += scorePerGoodNote * currentMultiplier;
         NoteHit();
+        goodHits++;
     }
 
     public void PerfectHit()
     {
         currentScore += scorePerPerfectNote * currentMultiplier;
         NoteHit();
+        perfectHits++;
     }
 
     public void NoteMissed()
@@ -119,9 +141,11 @@ public class GameManager : MonoBehaviour
         // reset multiplier
         currentMultiplier = 1;
         multiplierTracker = 0;
-        
+
         // multiplier text shown on screen
         multiText.text = "Multiplier: x" + currentMultiplier;
+
+        missedHits++;
 
     }
 }
