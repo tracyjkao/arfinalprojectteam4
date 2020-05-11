@@ -3,7 +3,7 @@
 Spring 2020 Augmented Reality
 Johns Hopkins University
 
-Unity version: 2018.4.14f1
+Unity version: 2018.4.14f
 Vuforia version: 9.0.12
 
 Team Members:Hui Yun Lin, Tracy Kao
