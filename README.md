@@ -30,7 +30,10 @@ Window > Vuforia Configuration > PlayMode > Camera Device, you have the correct 
 7. Enjoy!
 
 
-Video Demo:
-</n>
+Video Demos:<br/>
+
+
 [![Screen View](https://img.youtube.com/vi/kY1OG6XlByg/0.jpg)](https://youtu.be/kY1OG6XlByg)
+
+[![Player View](https://img.youtube.com/vi/Tqfpfr6SFRw/0.jpg)](https://youtu.be/Tqfpfr6SFRw)
 
