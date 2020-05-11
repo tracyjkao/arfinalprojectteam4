@@ -31,6 +31,6 @@ Window > Vuforia Configuration > PlayMode > Camera Device, you have the correct 
 
 
 Video Demo:
-<\n>
+</n>
 [![Screen View](https://img.youtube.com/vi/kY1OG6XlByg/0.jpg)](https://youtu.be/kY1OG6XlByg)
 
