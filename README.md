@@ -16,3 +16,13 @@ Steps to run code:
 2. Make sure you have the correct Vuforia version installed for optimal experience. 
 3. Set display resolution to Standalone(1024 x 678) for optimal experience.
 4. Press play to start playing!
+
+Steps to setup for game:
+1. Open the correct Unity file on your laptop. Do the "Steps to run code" above to ensure the right virtual environment.
+2. Connect webcam to your device if the webcam is not already connected. Make sure in Unity, under
+Window > Vuforia Configuration > PlayMode > Camera Device, you have the correct webcam selected.
+3. Attach the markers to your legs.
+4. Press play to start the game. 
+5. Adjust the length of the virtual leg using "w" and "s" keys.
+6. Press "space" bar to start playing. Press "space" bar again to pause during the game at any time.
+7. Enjoy!
